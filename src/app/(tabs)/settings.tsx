@@ -1,9 +1,9 @@
-import { View, Text } from "react-native";
+import { Text, View } from "react-native";
 
 const settings = () => {
   return (
     <View>
-      <Text>settings</Text>
+      <Text>Settings</Text>
     </View>
   );
 };
