@@ -1,33 +1,35 @@
-import { Link } from "expo-router";
+import { Link, type Href } from "expo-router";
 import { Text, View } from "react-native";
 import "../../../styles/welcome.css";
 import "./../../../global.css";
 
-const welcome = () => {
+const Welcome = () => {
   return (
     <View className="welcome-container">
       <View className="welcome-form">
-        <Text className="title font-readex-medium">Lorem ipsum</Text>
-        <Link href="/(auth)/sign-up" className="primary-cta">
-          Sign up
+        <Text className="title font-readex-medium">SubTrack</Text>
+
+        <Link href="/create-account" className="primary-cta sign-up-btn">
+          <Text>Create account</Text>
         </Link>
-        <Text>
+
+        <Text className="account-owner">
           Already have and account?
-          <Link href="/(auth)/sign-in" className="tertiary-cta">
-            Sign in
+          <Link href="/log-in" className="tertiary-cta sign-in-btn">
+            Log in
           </Link>
         </Text>
       </View>
       <View className="welcome-legal">
-        <Link href="#" className="tertiary-cta">
-          Terms of Service
+        <Link href={"#" as Href} className="tertiary-cta legal-cta">
+          Terms of use
         </Link>
-        <Link href="#" className="tertiary-cta">
-          Privacy Policy
+        <Link href={"#" as Href} className="tertiary-cta legal-cta">
+          Privacy policy
         </Link>
       </View>
     </View>
   );
 };
 
-export default welcome;
+export default Welcome;

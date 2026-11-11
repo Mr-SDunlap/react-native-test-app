@@ -2,20 +2,45 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #ff5722;
-  background: linear-gradient(
+  align-items: center;
+  background-color: #ff5722;
+  background-image: linear-gradient(
     135deg,
     rgba(255, 87, 34, 1) 0%,
     rgba(191, 53, 10, 1) 100%
   );
-  height: 100vh;
+  flex: 1;
   width: 100%;
+  position: relative;
 }
 .welcome-form {
-  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.welcome-form .sign-up-btn {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.account-owner {
+  font-size: 1rem;
+  color: var(--white);
+
+  .sign-in-btn {
+    margin-left: 10px;
+  }
+}
+.welcome-legal {
+  position: absolute;
+  bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  .legal-cta {
+    color: var(--white);
+  }
 }
 .title {
   font-size: 1.8rem;
