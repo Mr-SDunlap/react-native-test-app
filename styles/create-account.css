@@ -1,0 +1,142 @@
+/* Create-account */
+.create-account__title {
+  font-size: 2.2rem;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+.create-account__form {
+  width: clamp(150px, (100% - 40px), 800px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs */
+.auth-input,
+.auth-input-wrap {
+  background-color: var(--white);
+  width: 100%;
+  border-radius: 50vw;
+}
+.auth-input,
+.auth-input-field {
+  padding: 10px 20px;
+  font-family: ReadexPro_400Regular;
+  font-size: 1rem;
+  color: var(--off-black);
+}
+.auth-input-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 15px;
+}
+.auth-input-field {
+  flex: 1;
+}
+.auth-eye {
+  width: 22px;
+  height: 22px;
+}
+
+/* Password rules */
+.rules {
+  padding-left: 20px;
+  gap: 2px;
+}
+.rule {
+  font-family: ReadexPro_400Regular;
+  font-size: 0.75rem;
+  color: var(--white);
+  opacity: 0.8;
+}
+.rule-met {
+  font-family: ReadexPro_700Bold;
+  opacity: 1;
+}
+.auth-error {
+  font-family: ReadexPro_400Regular;
+  font-size: 0.75rem;
+  color: var(--white);
+  padding-left: 20px;
+}
+
+/* Buttons */
+.auth-submit,
+.auth-social {
+  width: 100%;
+  border-radius: 50vw;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.auth-submit {
+  background-color: var(--off-black);
+  padding-block: 18px;
+  margin-top: 10px;
+}
+.auth-submit-text {
+  font-family: ReadexPro_600SemiBold;
+  font-size: 1rem;
+  color: var(--white);
+}
+.auth-submit-disabled {
+  opacity: 0.6;
+}
+.auth-social {
+  background-color: #f5f5f5;
+  padding-block: 18px;
+  gap: 10px;
+}
+.auth-social-text {
+  font-family: ReadexPro_600SemiBold;
+  font-size: 1rem;
+  color: var(--off-black);
+}
+.auth-social-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* "or" divider */
+.auth-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin-block: 10px;
+}
+.auth-divider-line {
+  flex: 1;
+  height: 2px;
+  background-color: var(--white);
+}
+.auth-divider-text {
+  font-family: ReadexPro_500Medium;
+  color: var(--white);
+}
+
+/* Footer */
+.auth-switch {
+  font-family: ReadexPro_500Medium;
+  color: var(--white);
+  margin-top: 20px;
+}
+.auth-switch-link {
+  font-family: ReadexPro_700Bold;
+  text-decoration: underline;
+}
+.auth-legal {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.auth-legal-link {
+  font-family: ReadexPro_400Regular;
+  font-size: 0.75rem;
+  color: var(--white);
+}
