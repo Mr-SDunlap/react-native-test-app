@@ -1,0 +1,14 @@
+.tabs-icon {
+  align-items: center;
+  justify-content: center;
+}
+.tabs-pill {
+  width: 56px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.tabs-active {
+  background-color: #ff5722;
+}

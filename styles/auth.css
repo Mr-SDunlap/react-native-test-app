@@ -1,0 +1,145 @@
+/* Page layout */
+.auth-page {
+  flex: 1;
+  width: 100%;
+  max-width: 560px;
+  align-self: center;
+  gap: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.auth-header {
+  gap: 8px;
+}
+.auth-back {
+  font-size: 16px;
+  color: var(--yellow);
+  padding-bottom: 8px;
+}
+.auth-title {
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--white);
+}
+.auth-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.auth-form {
+  gap: 16px;
+}
+.auth-group {
+  gap: 10px;
+}
+
+/* Inputs */
+.auth-input,
+.auth-input-wrap {
+  background-color: var(--white);
+  width: 100%;
+  border-radius: 999px;
+}
+.auth-input,
+.auth-input-field {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: ReadexPro_400Regular;
+  font-size: 16px;
+  color: var(--off-black);
+}
+.auth-input-wrap {
+  flex-direction: row;
+  align-items: center;
+  padding-right: 16px;
+}
+.auth-input-field {
+  flex: 1;
+}
+.auth-eye {
+  width: 22px;
+  height: 22px;
+}
+
+/* Password rules */
+.rules {
+  padding-left: 20px;
+  gap: 2px;
+}
+.rule {
+  font-family: ReadexPro_400Regular;
+  font-size: 12px;
+  color: var(--white);
+  opacity: 0.8;
+}
+.rule-met {
+  font-family: ReadexPro_700Bold;
+  opacity: 1;
+}
+.auth-error {
+  font-family: ReadexPro_400Regular;
+  font-size: 12px;
+  color: var(--white);
+  padding-left: 20px;
+}
+
+/* Buttons area + "or" divider */
+.auth-actions {
+  gap: 12px;
+  padding-top: 8px;
+}
+.auth-divider {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.auth-divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.auth-divider-text {
+  font-family: ReadexPro_500Medium;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Footer */
+.auth-footer {
+  align-items: center;
+  gap: 16px;
+  padding-top: 8px;
+}
+.auth-switch {
+  font-family: ReadexPro_500Medium;
+  color: var(--white);
+}
+.auth-switch-link {
+  font-family: ReadexPro_700Bold;
+  text-decoration: underline;
+}
+.auth-legal {
+  flex-direction: row;
+  gap: 24px;
+}
+.auth-legal-link {
+  font-family: ReadexPro_400Regular;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: underline;
+}
+
+/* Log-in only */
+.auth-forgot {
+  align-self: flex-end;
+  padding-right: 20px;
+  font-family: ReadexPro_500Medium;
+  font-size: 13px;
+  color: var(--white);
+  text-decoration: underline;
+}

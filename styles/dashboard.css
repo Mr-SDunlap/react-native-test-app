@@ -1,0 +1,161 @@
+.db-page {
+  width: 100%;
+  max-width: 640px;
+  align-self: center;
+  gap: 24px;
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+.db-section {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* Header */
+.db-header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.db-eyebrow {
+  font-size: 14px;
+  color: var(--yellow);
+}
+.db-title {
+  font-size: 28px;
+  line-height: 34px;
+  color: var(--white);
+}
+.db-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hero card */
+.db-hero {
+  gap: 6px;
+  padding: 22px;
+  border-radius: 24px;
+  background-color: var(--white);
+}
+.db-hero-label {
+  font-size: 14px;
+  color: var(--grey);
+}
+.db-hero-amount {
+  font-size: 44px;
+  line-height: 52px;
+  color: var(--off-black);
+}
+.db-hero-sub {
+  font-size: 14px;
+  color: var(--grey);
+}
+.db-hero-divider {
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: var(--light-grey);
+}
+.db-hero-next {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.db-hero-next-label {
+  font-size: 14px;
+  color: var(--off-black);
+}
+.db-hero-next-days {
+  font-size: 14px;
+  color: var(--blood-orange);
+}
+
+/* Headings */
+.db-heading {
+  font-size: 20px;
+  color: var(--white);
+}
+
+/* Upcoming carousel */
+.db-upcoming {
+  width: 168px;
+  gap: 14px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+.db-upcoming-copy {
+  gap: 2px;
+}
+.db-upcoming-name {
+  font-size: 15px;
+  color: var(--white);
+}
+.db-upcoming-price {
+  font-size: 20px;
+  color: var(--white);
+}
+.db-pill {
+  align-self: flex-start;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.22);
+}
+.db-pill-text {
+  font-size: 12px;
+  color: var(--white);
+}
+
+/* Brand icon tile (shared by cards and rows) */
+.db-tile {
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: var(--white);
+}
+.db-tile-icon {
+  width: 26px;
+  height: 26px;
+}
+
+/* Subscription rows */
+.db-list {
+  gap: 10px;
+}
+.db-row {
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+.db-row-copy {
+  flex: 1;
+  gap: 2px;
+}
+.db-row-name {
+  font-size: 16px;
+  color: var(--white);
+}
+.db-row-plan {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.db-row-price-col {
+  align-items: flex-end;
+  gap: 2px;
+}
+.db-row-price {
+  font-size: 16px;
+  color: var(--white);
+}
